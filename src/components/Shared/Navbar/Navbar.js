@@ -74,7 +74,7 @@ const Navbar = () => {
               {menuItems}
             </ul>
           </div>
-          <h1 className="text-4xl font-bold text-white"> Fisino.</h1>
+          <h1 className="text-4xl font-bold text-white"> Hot Gadget.</h1>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal font-mono">{menuItems}</ul>
