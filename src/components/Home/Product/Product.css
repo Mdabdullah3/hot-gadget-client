@@ -1,0 +1,6 @@
+.product-info{
+    background: url(../../../Assets/product-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}

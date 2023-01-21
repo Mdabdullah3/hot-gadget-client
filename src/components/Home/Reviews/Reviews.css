@@ -1,0 +1,55 @@
+.img-circle {
+  border-radius: 50%;
+  vertical-align: middle;
+  max-width: 90px;
+  height: 80px;
+  transform-style: preserve-3d;
+  margin: 0 auto 17px;
+}
+#customer-testimonoals {
+  margin-top: 6%;
+}
+.testimonial-name {
+  margin: -20px auto 0;
+  display: table;
+  width: auto;
+  padding: 9px 35px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+}
+#customer-testimonoals .item {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0px;
+  opacity: 0.2;
+  transform: scale3d(0.8, 0.8, 1);
+  transition: all 0.3s ease-in-out;
+}
+#customer-testimonoals .owl-item.active.center .item {
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-image: linear-gradient(45deg, #156355, #00c2b4);
+  transform: translate3d(0px, -50%, 0px) scale(0.8);
+}
+.owl-carousel .owl-dots {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.owl-carousel .owl-dots .owl-dot {
+  display: inline-block;
+}
+.owl-carousel .owl-dots .owl-dot span {
+  background-image: linear-gradient(45deg, #156355, #00c2b4);
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px 5px;
+  transform: translate3d(0px, -50%, 0px) scale(0.3);
+  transform-origin: 50% 50% 0;
+  transition: all 250ms ease-out 0s;
+}
