@@ -5,7 +5,7 @@ const ProductDetails = () => {
   const { productId } = useParams();
   const [productDetails, setProductDetails] = useState([]);
   useEffect(() => {
-    fetch(`https://enigmatic-mountain-34268.herokuapp.com/product/${productId}`)
+    fetch(`https://hot-gadget.onrender.com/product/${productId}`)
       .then((res) => res.json())
       .then((data) => setProductDetails(data));
   }, [productId]);

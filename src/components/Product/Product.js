@@ -9,13 +9,13 @@ const Product = () => {
   const [product, setProduct] = useState([]);
 
   useEffect(() => {
-    fetch(`https://enigmatic-mountain-34268.herokuapp.com/product?page=${page}&size=${size}`)
+    fetch(`https://hot-gadget.onrender.com/product?page=${page}&size=${size}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [page, size]);
 
   useEffect(() => {
-    fetch("https://enigmatic-mountain-34268.herokuapp.com/productCount")
+    fetch("https://hot-gadget.onrender.com/productCount")
       .then((res) => res.json())
       .then((data) => {
         const count = data.count;

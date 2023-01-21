@@ -8,7 +8,7 @@ const MyProducts = () => {
   const [user] = useAuthState(auth);
   useEffect(() => {
     const email = user.email;
-    const url = `https://enigmatic-mountain-34268.herokuapp.com/myProducts?email=${email}`;
+    const url = `https://hot-gadget.onrender.com/myProducts?email=${email}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setMyItems(data));

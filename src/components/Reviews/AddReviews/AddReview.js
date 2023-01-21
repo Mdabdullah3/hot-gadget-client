@@ -9,7 +9,7 @@ const AddReview = () => {
   const [user] = useAuthState(auth);
 
   const onSubmitFrom = (data) => {
-    fetch("https://enigmatic-mountain-34268.herokuapp.com/review", {
+    fetch("https://hot-gadget.onrender.com/review", {
       method: "POST",
       headers: {
         "content-type": "application/json; charset=UTF-8",

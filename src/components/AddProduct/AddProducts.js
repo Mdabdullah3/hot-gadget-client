@@ -7,7 +7,7 @@ const AddProducts = () => {
   const { register, handleSubmit, reset } = useForm();
   const [user] = useAuthState(auth);
   const onSubmitFrom = (data) => {
-    fetch("https://enigmatic-mountain-34268.herokuapp.com/product", {
+    fetch("https://hot-gadget.onrender.com/product", {
       method: "POST",
       headers: {
         "content-type": "application/json; charset=UTF-8",
